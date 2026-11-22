@@ -1,0 +1,43 @@
+:root {
+    /* Основная палитра */
+    --color-primary:        #1a3d7c;
+    --color-primary-hover:  #2a5bb8;
+    --color-primary-light:  #e3ecff;
+    --color-accent:         #1a73e8;
+    --color-accent-hover:   #155ab6;
+
+    /* Фоны */
+    --color-bg:             #f4f7fb;
+    --color-surface:        #ffffff;
+    --color-surface-alt:    #f8faff;
+    --color-surface-hero:   #e3ecff;
+    --color-surface-hover:  #dbe6ff;
+
+    /* Текст */
+    --color-text:           #222222;
+    --color-text-inverse:   #ffffff;
+    --color-text-muted:     #556080;
+    --color-text-link:      #dbe6ff;
+
+    /* Границы и тени */
+    --color-border:         #c9d6ee;
+    --color-border-focus:   #1a73e8;
+    --shadow-card:          rgba(0, 0, 0, 0.10);
+    --shadow-focus:         rgba(26, 115, 232, 0.35);
+
+    /* Акценты */
+    --color-danger:         #e63946;
+    --color-danger-bg:      #ffe5e7;
+    --color-highlight:      #ffe58a;
+    --color-highlight-text: #4a3500;
+
+    /* Градиенты */
+    --gradient-hero: linear-gradient(135deg, #e3ecff 0%, #d0e0ff 50%, #e3ecff 100%);
+    --gradient-btn:  linear-gradient(135deg, #1a73e8 0%, #1a3d7c 100%);
+
+    /* Прочее */
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --shadow-sm: 0 2px 6px var(--shadow-card);
+}
